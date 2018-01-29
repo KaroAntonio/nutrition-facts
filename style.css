@@ -1,0 +1,121 @@
+body,html { margin: 0px; border: 0px; font-family: sans-serif; }
+
+#loading {
+	position: absolute;
+	right: 50vw;
+	top: 20vh;
+	width: 40px;
+	height: 40px;
+	z-index: 1000000; /* the highest */
+}
+
+#facts-box {
+	border: 3px solid black;
+	width: 420px;
+	margin-top: 20vh;
+	margin-left:auto;
+	margin-right:auto;
+	padding: 5px;
+}
+
+#facts-title {
+	font-weight: bold;	
+	font-size: 50px;
+}
+
+#amount-per-serving-title {
+	font-weight: bold;
+}
+
+#amount-per-serving-section {
+	overflow: auto;
+}
+
+#percent-title {
+	float: right;
+	height: 18px;
+}
+
+#empty-percent-padding {
+	height:18px;
+}
+
+/* MODIFIERS */
+.large-text {
+	font-size: 23px;
+}
+
+.bold-text {
+	font-weight: bold;
+}
+
+.indented {
+	margin-left: 20px;
+}
+
+#energy-section {
+	//overflow:auto;
+	
+}
+
+#energy-amount {
+	float: right;
+	margin-top: -25px;
+	
+}
+
+.thick-bar {
+	background: black;
+	height: 10px;
+	width: auto;
+}
+
+.thin-bar {
+	background: black;
+	height: 6px;
+	width: auto;
+}
+
+
+#vitamin-section {
+	height: auto;	
+}
+
+
+.vitamin {
+	height: 18px;
+	padding-top: 2px;
+	border-bottom: 2px solid black;
+}
+.vitamin-name {
+	float:left;
+}
+
+.vitamin-percent {
+	float: right;
+	float: top;
+}
+
+#items-section {
+	overflow: auto;
+}
+
+.item {
+	height: 18px;
+	width: inherit;
+	padding-top: 2px;
+	border-top: 2px solid black;
+}
+
+.item-name {
+	float: left;
+	margin-right: 4px;
+}
+
+.item-amount {
+	float: left;
+}
+
+.item-percent {
+	float: right;
+}
